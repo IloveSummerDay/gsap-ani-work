@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 173.99 480.33">
+    <defs>
+        <style>
+            .cls-1 {
+                isolation: isolate;
+            }
+
+            .cls-2 {
+                fill: url(#linear-gradient);
+            }
+
+            .cls-3 {
+                mix-blend-mode: overlay;
+                fill: url(#linear-gradient-2);
+            }
+
+            .cls-4 {
+                fill: #107570;
+            }
+
+            .cls-5 {
+                fill: #d02125;
+            }
+
+            .cls-6 {
+                fill: #9f0611;
+            }
+
+            .cls-7 {
+                fill: #fdfdfd;
+            }
+
+            .cls-8 {
+                fill: #b4b4b4;
+            }
+
+            .cls-9 {
+                fill: #2ebcbc;
+            }
+        </style>
+        <linearGradient id="linear-gradient" x1="87.36" y1="451.51" x2="87.36" y2="278.82"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#f7e474" />
+            <stop offset="0.22" stop-color="#f8d066" />
+            <stop offset="0.67" stop-color="#fc9b41" />
+            <stop offset="1" stop-color="#ff7224" />
+        </linearGradient>
+        <linearGradient id="linear-gradient-2" x1="87.83" y1="434.82" x2="87.83" y2="166.09"
+            gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#fff" stop-opacity="0" />
+            <stop offset="0.09" stop-color="#fff" stop-opacity="0.03" />
+            <stop offset="0.22" stop-color="#fff" stop-opacity="0.11" />
+            <stop offset="0.37" stop-color="#fff" stop-opacity="0.24" />
+            <stop offset="0.55" stop-color="#fff" stop-opacity="0.42" />
+            <stop offset="0.75" stop-color="#fff" stop-opacity="0.66" />
+            <stop offset="0.96" stop-color="#fff" stop-opacity="0.94" />
+            <stop offset="1" stop-color="#fff" />
+        </linearGradient>
+    </defs>
+    <g class="cls-1">
+        <g id="图层_2" data-name="图层 2">
+            <g id="object">
+                <polygon class="cls-2" points="155.4 480.12 102.21 261.72 73 261.69 19.32 480.12 155.4 480.12" />
+                <polygon class="cls-3" points="118.25 480.33 93.94 261.71 80.88 261.68 57.41 480.33 118.25 480.33" />
+                <g id="rocket">
+                    <rect class="cls-4" x="80.28" y="230.89" width="16.43" height="49.82"
+                        transform="translate(-168.34 341.24) rotate(-89.32)" />
+                    <path class="cls-5"
+                        d="M88,177.49A87,87,0,0,0,5.58,295.13a87,87,0,0,1,162.06,1.95A87,87,0,0,0,88,177.49Z" />
+                    <path class="cls-6" d="M109.46,244a87.12,87.12,0,0,1,58.18,53.13,87,87,0,0,0-57.42-116.45Z" />
+                    <path class="cls-7"
+                        d="M34.64,148.54c-.49,41,7.73,78.63,21.76,107.9a101.63,101.63,0,0,1,61.38.73c14.72-28.92,23.85-66.33,24.34-107.33C142.9,84.7,121.73,28,90.17,0,58,27.28,35.42,83.41,34.64,148.54Z" />
+                    <path class="cls-8"
+                        d="M90.17,0c-3.67,3.11-4.84,252.07-4.84,252.07.61,0,1.21,0,1.82,0a101.67,101.67,0,0,1,30.63,5.11c14.72-28.92,23.85-66.33,24.34-107.33C142.9,84.7,121.73,28,90.17,0Z" />
+                    <path class="cls-9"
+                        d="M49.75,62.52,47.19,70s46-4.65,85.36,1.89l-3.47-8.44S76.23,56.27,49.75,62.52Z" />
+                    <path class="cls-5"
+                        d="M75.83,234.13c-.33,27.09,4.08,50.59,10.78,62.19,7-11.43,12-34.83,12.28-61.91s-4.09-50.6-10.79-62.2C81.13,183.65,76.15,207,75.83,234.13Z" />
+                    <path class="cls-6"
+                        d="M86.31,295.75l.3.57c7-11.43,12-34.83,12.28-61.91s-4.09-50.6-10.79-62.2c-.1.18-.2.39-.31.56Z" />
+                    <path class="cls-4" d="M89,98a21,21,0,1,0,20.73,21.23A21,21,0,0,0,89,98Z" />
+                    <path class="cls-5"
+                        d="M49.75,62.52c12.93-.71,26.17-1,39.68-.86s26.74.79,39.65,1.81c-9.17-26.9-22.64-49-38.91-63.47C73.56,14.06,59.56,35.84,49.75,62.52Z" />
+                    <path class="cls-6"
+                        d="M90.74,61.69q19.58.29,38.34,1.78c-9.17-26.9-22.64-49-38.91-63.47-.3.25-.59.53-.89.79Z" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

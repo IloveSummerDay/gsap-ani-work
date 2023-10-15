@@ -1,0 +1,31 @@
+
+#screen2_radio {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background:#F4CE57;
+    overflow:hidden;
+    margin:0;
+}
+.radio {
+    height:100vh;
+    width:100%;
+    max-width:800px;
+    visibility:hidden;
+}
+#pBtn {
+    cursor:pointer;
+}
+#tuningBtnFront,#volumeBtnFront,#antenna {
+    cursor:grab;
+}
+#textGroup {
+    user-select:none;
+}
+.gsap-3-logo { 
+  width: 20vw; 
+  max-width: 150px; 
+  position: fixed; 
+  bottom: 15px; 
+  right: 15px; 
+}

@@ -1,0 +1,131 @@
+#screen3_sky {
+    /* background:#bfc; */
+    background-image: url(../public/天空背景.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.plane_box {
+    width: 500px;
+    height: 500px;
+    /* background-color: antiquewhite; */
+    border-radius: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.plane_item_frame {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plane_move_road_svg {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.plane_svg {
+    width: 50%;
+    height: 50%;
+    overflow: visible;
+}
+
+.plane_item_three_svg {
+    width: 70%;
+    height: 70%;
+}
+
+/* js添加效果处 */
+#plane_line,
+#tail {
+    opacity: 0;
+}
+
+#propeller {
+    overflow: visible;
+}
+
+.takeOff_box {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 100vw;
+    /* left: 0; */
+    background-image: url(../public/takeoff背景.svg);
+    background-size: cover;
+    z-index: 10000;
+    /* opacity: 0; */
+}
+
+.takeOff_svg {
+    height: 100%;
+    overflow: hidden;
+}
+
+.topcloud_shadow,
+.bottomcloud_shadow,
+.midcloud_shadow,
+.sun {
+    opacity: 0;
+}
+
+.star {
+    opacity: 0;
+}
+
+.topcloud,
+.bottomcloud {
+    transform: translateX(100vw);
+    opacity: 0;
+}
+
+.midcloud {
+    transform: translateX(-100vw);
+    opacity: 0;
+}
+
+.rocket_svg {
+    transform: translateY(400px);
+    opacity: 0;
+}
+
+
+.looking{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    opacity: 0;
+}
+.next_text {
+    position: absolute;
+    bottom:10%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    letter-spacing: 40px;
+    color: white;
+    opacity: 0;
+    flex-wrap: wrap;
+    /* font-family: "Boogaloo"; */
+    /* background-color: aqua; */
+}

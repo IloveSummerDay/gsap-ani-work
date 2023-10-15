@@ -1,0 +1,160 @@
+#screen5_burger {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+
+canvas {
+    position: absolute;
+    bottom: 27%;
+    right: 1%;
+    /* border: 1px solid black; */
+    background-image: url(../public/菜板.svg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #CC9463;
+    border-radius: 100px;
+}
+
+.text_bg {
+
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    /* background-image: url(./话板.svg); */
+    background-position: left 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(147, 44, 44); */
+}
+
+.text {
+    max-width: 60%;
+    overflow-wrap: break-word;
+    opacity: 0.6;
+    color: rgb(215, 137, 21);
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    user-select: none;
+    text-align: center;
+}
+
+
+.text_gradient_red {
+    background: linear-gradient(to right, #F44321 0%, #913226 50%);
+    /* 设置线性渐变背景 */
+}
+
+.text_gradient_gray {
+    background: linear-gradient(to right, #FCE8D4, #d7bea7);
+    /* 设置线性渐变背景 */
+}
+
+.text_gradient_green {
+    background: linear-gradient(to right, #cff47d, #7d9340);
+    /* 设置线性渐变背景 */
+}
+
+.text_gradient_brown {
+    background: linear-gradient(to right, #e8c4a7, #ed6307);
+    /* 设置线性渐变背景 */
+}
+
+.text_gradient_red,
+.text_gradient_gray,
+.text_gradient_green,
+.text_gradient_brown {
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* 使用文字作为背景的剪裁区域 */
+    -webkit-text-fill-color: transparent;
+    /* 隐藏文字颜色 */
+}
+
+.text span {
+    color: #C68D67;
+    -webkit-text-fill-color: #C68D67;
+    /* 隐藏文字颜色 */
+}
+
+.color_bg {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.color_bg li {
+    /* flex: 1; */
+    background-color: aquamarine;
+    margin-right: 10px;
+    height: 50px;
+    width: 10vw;
+    border-radius: 30px;
+}
+
+.color_bg li div:nth-child(odd) {
+    border-radius: 30px 0 0 30px;
+}
+
+.color_bg li div:nth-child(even) {
+    border-radius: 0 30px 30px 0;
+}
+
+.changeImg {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-image: url(../public/对勾.svg);
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.warn_board {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #7d9340;
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+.text_svg_bg{
+    position: absolute;
+    pointer-events: visible;
+}
+
+.screen5_container1_bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../public/笔刷背景.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.burger_img{
+    width: 30%;
+}

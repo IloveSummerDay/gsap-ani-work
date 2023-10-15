@@ -1,0 +1,18 @@
+.color
+{
+  fill: var(--color, black);
+}
+#content
+{
+  text-align: center;
+  font-family: sans-serif;
+  user-select: none;
+}
+
+.balloon
+{
+  cursor: pointer;
+}
+
+#behind_svg { z-index: 1; }
+#content { z-index: 2; }
